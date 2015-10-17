@@ -11,9 +11,9 @@ Listing
 
 ### Stream
 
-* [StreamAdapter](src/Transfer/Commons/Stream#StreamAdapter)
+* [StreamAdapter](src/Transfer/Commons/Stream#streamadapter)
 
 ### XML
 
-* [StringToSimpleXmlTransformer](src/Transfer/Commons/Xml#StringToSimpleXmlTransformer)
-* [SimpleXmlToStringTransformer](src/Transfer/Commons/Xml#SimpleXmlToStringTransformer)
+* [StringToSimpleXmlTransformer](src/Transfer/Commons/Xml#stringtosimplexmltransformer)
+* [SimpleXmlToStringTransformer](src/Transfer/Commons/Xml#simplexmltostringtransformer)
