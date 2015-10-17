@@ -13,6 +13,7 @@ Usage example in procedure builder:
     <?php
     
     use Transfer\Procedure\ProcedureBuilder;
+    use Transfer\Commons\Xml\Worker\Transformer\StringToSimpleXmlTransformer;
     
     $builder = new ProcedureBuilder();
     
@@ -34,6 +35,7 @@ Usage example in procedure builder:
     <?php
     
     use Transfer\Procedure\ProcedureBuilder;
+    use Transfer\Commons\Xml\Worker\Transformer\SimpleXmlToStringTransformer;
     
     $builder = new ProcedureBuilder();
     
