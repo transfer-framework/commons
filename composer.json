@@ -16,7 +16,11 @@
     "symfony/yaml": "2.7.5"
   },
   "require-dev": {
-    "phpunit/phpunit": "^4.7"
+    "phpunit/phpunit": "^4.7",
+    "doctrine/orm": "^2.5"
+  },
+  "suggest": {
+    "doctrine/orm": "For Doctrine related functionality"
   },
   "autoload":     {
     "psr-0": { "Transfer\\Commons\\": "src/" }
