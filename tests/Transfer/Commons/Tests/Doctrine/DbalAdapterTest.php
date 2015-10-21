@@ -41,7 +41,7 @@ class DbalAdapterTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(
             array(
                 array(
-                    'id' => 1,
+                    'id'   => 1,
                     'name' => 'Test row',
                 ),
             ),
