@@ -24,12 +24,13 @@ class ArrayToYamlTransformerTest extends \PHPUnit_Framework_TestCase
     public function testHandle()
     {
         $array = array(
-            'frontpage' => array(
-                'main_group_identifier' => 'Content',
-                'contenttype_groups' => array(
-                    'Content',
+            'level1' => array(
+                'level2_1' => 'Value2_1',
+                'level2_2'    => array(
+                    'level3_1',
+                    'level3_2',
                 ),
-                'main_language_code' => 'eng-GB',
+                'level3_3' => 'Value3_3',
             ),
         );
 

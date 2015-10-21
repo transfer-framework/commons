@@ -26,6 +26,7 @@ class YamlToArrayTransformer implements WorkerInterface
         }
 
         $parser = new Parser();
+
         return $parser->parse($yaml);
     }
 }

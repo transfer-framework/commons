@@ -25,6 +25,7 @@ class ArrayToYamlTransformer implements WorkerInterface
             );
         }
         $dumper = new Dumper();
+
         return $dumper->dump($array, 4, 4);
     }
 }
