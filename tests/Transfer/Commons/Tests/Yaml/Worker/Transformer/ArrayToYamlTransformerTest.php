@@ -26,7 +26,7 @@ class ArrayToYamlTransformerTest extends \PHPUnit_Framework_TestCase
         $array = array(
             'level1' => array(
                 'level2_1' => 'Value2_1',
-                'level2_2'    => array(
+                'level2_2' => array(
                     'level3_1',
                     'level3_2',
                 ),
