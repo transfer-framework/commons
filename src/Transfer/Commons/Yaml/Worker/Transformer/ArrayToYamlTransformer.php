@@ -21,7 +21,7 @@ class ArrayToYamlTransformer implements WorkerInterface
     {
         if (!is_array($array)) {
             throw new \InvalidArgumentException(
-                sprintf('Expected argument #1 to be of type string, got %s', gettype($array))
+                sprintf('Expected argument #1 to be of type array, got %s', gettype($array))
             );
         }
         $dumper = new Dumper();
