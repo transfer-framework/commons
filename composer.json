@@ -16,10 +16,12 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^4.7",
-    "doctrine/orm": "^2.5"
+    "doctrine/orm": "^2.5",
+    "symfony/yaml": "2.7.5"
   },
   "suggest": {
-    "doctrine/orm": "For Doctrine related functionality"
+    "doctrine/orm": "For Doctrine related functionality",
+    "symfony/yaml": "Allows usage of Yaml transformers"
   },
   "autoload":     {
     "psr-0": { "Transfer\\Commons\\": "src/" }
