@@ -9,6 +9,15 @@ workers, can also be used without Transfer.
 Listing
 -------
 
+### Doctrine
+
+* [DbalAdapter](src/Transfer/Commons/Doctrine#dbaladapter)
+
+### JSON
+
+* [JsonStringToArrayTransformer](src/Transfer/Commons/Json#jsonstringtoarraytransformer)
+* [ArrayToJsonStringTransformer](src/Transfer/Commons/Json#arraytojsonstringtransformer)
+
 ### Stream
 
 * [StreamAdapter](src/Transfer/Commons/Stream#streamadapter)
@@ -17,10 +26,6 @@ Listing
 
 * [StringToSimpleXmlTransformer](src/Transfer/Commons/Xml#stringtosimplexmltransformer)
 * [SimpleXmlToStringTransformer](src/Transfer/Commons/Xml#simplexmltostringtransformer)
-
-### Doctrine
-
-* [DbalAdapter](src/Transfer/Commons/Doctrine#dbaladapter)
 
 ### Yaml
 
