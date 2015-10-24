@@ -6,6 +6,15 @@ Transfer Commons
 This repository provides a collection of components which can be used with Transfer. Part of these components, such as 
 workers, can also be used without Transfer.
 
+Installation
+------------
+
+Install the latest version with:
+
+    $ composer require transfer/commons 
+
+This requires [Composer](https://getcomposer.org/download/) to be installed globally in your system.
+
 Listing
 -------
 
