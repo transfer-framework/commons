@@ -41,6 +41,8 @@ class StreamAdapter implements SourceAdapterInterface, TargetAdapterInterface
      */
     public function receive(Request $request)
     {
+        fseek($this->stream, 0);
+
         return new Response(array(stream_get_contents($this->stream)));
     }
 

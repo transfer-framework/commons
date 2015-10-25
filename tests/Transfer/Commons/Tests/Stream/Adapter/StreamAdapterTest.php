@@ -24,23 +24,9 @@ class StreamAdapterTest extends \PHPUnit_Framework_TestCase
      */
     public $adapter;
 
-    public static function setUpBeforeClass()
-    {
-        stream_wrapper_register('mock', 'Transfer\Commons\Tests\Stream\Adapter\MockStream');
-    }
-
-    public static function tearDownAfterClass()
-    {
-        stream_wrapper_unregister('mock');
-    }
-
     public function setUp()
     {
-        $this->stream = fopen('mock://test', null, false, stream_context_create(array(
-            'mock' => array(),
-        )));
-
-        $this->adapter = new StreamAdapter($this->stream);
+        $this->adapter = new StreamAdapter(fopen('php://memory', 'rw+'));
     }
 
     public function testSendReceive()
