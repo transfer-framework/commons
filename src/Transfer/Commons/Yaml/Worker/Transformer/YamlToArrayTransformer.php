@@ -20,7 +20,7 @@ class YamlToArrayTransformer implements WorkerInterface
      */
     public function handle($yaml)
     {
-        if($yaml instanceof ValueObject) {
+        if ($yaml instanceof ValueObject) {
             $yaml = $yaml->data;
         }
         if (!is_string($yaml)) {
