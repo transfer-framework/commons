@@ -37,8 +37,12 @@ class DbalAdapter extends NonDirectionalAdapter
     {
         $statements = array();
 
-        foreach ($request as $query) {
-            $statements[] = $this->connection->executeQuery($query);
+        foreach ($request as $queries) {
+            $queries = (array) $queries;
+
+            foreach ($queries as $query) {
+                $statements[] = $this->connection->executeQuery($query);
+            }
         }
 
         return new Response(new StatementIterator($statements));
