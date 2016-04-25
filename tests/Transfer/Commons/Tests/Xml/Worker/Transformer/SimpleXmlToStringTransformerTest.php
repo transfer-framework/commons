@@ -22,7 +22,7 @@ class SimpleXmlToStringTransformerTest extends \PHPUnit_Framework_TestCase
 
     public function testHandle()
     {
-        $xml = <<<XML
+        $xml = <<<'XML'
 <?xml version="1.0"?>
 <root><element/></root>
 
