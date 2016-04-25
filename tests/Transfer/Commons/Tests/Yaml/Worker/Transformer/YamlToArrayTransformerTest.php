@@ -23,7 +23,7 @@ class YamlToArrayTransformerTest extends \PHPUnit_Framework_TestCase
 
     public function testHandle()
     {
-        $yml = <<<CDATA
+        $yml = <<<'CDATA'
 level1:
     level2_1: "Value2_1"
     level2_2:
